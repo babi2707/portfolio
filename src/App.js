@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -13,8 +13,21 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Sidebar />
+      <main className="main">
+        <Home />
+        <About />
+        <Services />
+        <Resume />
+        <Portfolio />
+        <Pricing />
+        <Testimonials />
+        <Blog />
+        <Contact />
+      </main>
+    </>
+  );
+};
 
-export default App
+export default App;
