@@ -1,7 +1,7 @@
 import React from "react";
 import "./sidebar.css";
 import "../../index.css";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.png";
 
 const Sidebar = () => {
   return (
