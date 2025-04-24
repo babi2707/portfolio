@@ -54,14 +54,14 @@
     line-height: 1.2;
 }
 
-.skills__bar, 
+.skills__bar,
 .skills__percentage {
     height: 7px;
     border-radius: 0.25rem;
 }
 
 .skills__bar {
-    background-color: #f1f1f1;
+    background-color: #b6b2b279;
 }
 
 .skills__percentage {
@@ -70,20 +70,40 @@
 
 .frontend {
     width: 80%;
-    background-color: rgba(170, 94, 241, 0.5);
+    background-color: rgb(205, 129, 255);
 }
 
 .backend {
     width: 70%;
-    background-color: rgba(170, 94, 241, 0.5);
+    background-color: rgb(255, 129, 249);
 }
 
 .database {
     width: 50%;
-    background-color: rgba(170, 94, 241, 0.5);
+    background-color: rgb(255, 129, 135);
 }
 
 .unit {
     width: 60%;
-    background-color: rgba(170, 94, 241, 0.5);
+    background-color: rgb(250, 183, 121);
+}
+
+.about__boxes {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    color: #babac5;
+}
+
+.about__title {
+    font-size: 1.875rem;
 }

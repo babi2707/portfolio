@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.png";
+import AboutBox from "./AboutBox";
 
 const About = () => {
   return (
@@ -69,6 +70,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <AboutBox />
     </section>
   );
 };
