@@ -11,14 +11,14 @@ const data = [
     image: Image1,
     title: "Frontend Development",
     description:
-      "Building modern, responsive interfaces with a focus on user experience. I work with technologies like HTML, CSS, SCSS, JavaScript, TypeScript, React, Angular, Flutter, and WPF.",
+      "Building modern, responsive interfaces with a focus on user experience. I work with technologies like HTML, CSS, SCSS, JavaScript, TypeScript, React, Angular, Flutter, Kotlin, and WPF.",
   },
   {
     id: 2,
     image: Image2,
     title: "Backend Development",
     description:
-      "Developing robust and scalable systems, handling business logic and integrations. I use languages such as Java, C#, Kotlin, .NET, C, C++, and JavaScript.",
+      "Developing robust and scalable systems, handling business logic and integrations. I use languages such as Java, C#, .NET, C, C++, and JavaScript.",
   },
   {
     id: 3,
