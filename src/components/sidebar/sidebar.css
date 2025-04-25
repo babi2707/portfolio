@@ -2,11 +2,12 @@
     position: fixed;
     left: 0;
     top: 0;
+    bottom: 0;
     background: var(--body-color);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
-    padding: 2.5rem;
-    width: 110px;
-    min-height: 100vh;
+    padding: 1.5rem;
+    width: 70px;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
