@@ -8,7 +8,6 @@ import Resume from "./components/resume/Resume";
 import Portfolio from "./components/portfolio/Portfolio";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
-import Pricing from "./components/pricing/Pricing";
 import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
         <Services />
         <Resume />
         <Portfolio />
-        <Pricing />
         <Testimonials />
         <Blog />
         <Contact />
