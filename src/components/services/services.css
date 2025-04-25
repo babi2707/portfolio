@@ -3,17 +3,6 @@
     column-gap: 1rem;
 }
 
-@media screen and (max-width: 800px) {
-    .services__container {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1rem;
-    }
-
-    .services__card {
-        margin-bottom: 1rem;
-    }
-}
-
 .secTitle {
     margin-bottom: 1.5rem;
 }
@@ -63,4 +52,24 @@
 
 .services__description {
     color: #494949;
+}
+
+@media screen and (max-width: 1024px) {
+    .services__container {
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services__container {
+        grid-template-columns: 310px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .services__container {
+        grid-template-columns: 1fr;
+    }
 }
