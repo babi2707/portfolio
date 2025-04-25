@@ -11,28 +11,28 @@ const data = [
     image: Image1,
     title: "Frontend Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "Building modern, responsive interfaces with a focus on user experience. I work with technologies like HTML, CSS, SCSS, JavaScript, TypeScript, React, Angular, Flutter, and WPF.",
   },
   {
     id: 2,
     image: Image2,
     title: "Backend Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "Developing robust and scalable systems, handling business logic and integrations. I use languages such as Java, C#, Kotlin, .NET, C, C++, and JavaScript.",
   },
   {
     id: 3,
     image: Image3,
     title: "Database Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "Designing, creating, and optimizing databases to ensure data efficiency and integrity. Experienced with SQL and integrating databases with various backend technologies.",
   },
   {
     id: 4,
     image: Image4,
     title: "Unit Tests",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "Creating automated tests to ensure code quality and functionality. I’ve written unit tests in C#, Java, and TypeScript (in an Angular frontend project).",
   },
 ];
 
@@ -42,15 +42,15 @@ const Services = () => {
       <h2 className="section__title secTitle">Services</h2>
 
       <div className="services__container grid">
-        {data.map(({id, image, title, description}) => {
-            return (
-                <div className="services__card" key={id}>
-                    <img src={image} alt="" className="services__img" />
+        {data.map(({ id, image, title, description }) => {
+          return (
+            <div className="services__card" key={id}>
+              <img src={image} alt="" className="services__img" />
 
-                    <h3 className="services__title">{title}</h3>
-                    <p className="services__description">{description}</p>
-                </div>
-            );
+              <h3 className="services__title">{title}</h3>
+              <p className="services__description">{description}</p>
+            </div>
+          );
         })}
       </div>
     </section>
