@@ -33,8 +33,20 @@ const Sidebar = ({ toggle, setToggle }) => {
               </li>
 
               <li className="nav__item">
+                <a href="#languages" className="nav__link">
+                  <i className="icon-screen-desktop"></i>
+                </a>
+              </li>
+
+              <li className="nav__item">
                 <a href="#resume" className="nav__link">
                   <i className="icon-graduation"></i>
+                </a>
+              </li>
+
+              <li className="nav__item">
+                <a href="#idiom" className="nav__link">
+                  <i className="icon-speech"></i>
                 </a>
               </li>
 
@@ -46,7 +58,7 @@ const Sidebar = ({ toggle, setToggle }) => {
 
               <li className="nav__item">
                 <a href="#contact" className="nav__link">
-                  <i className="icon-bubble"></i>
+                  <i className="icon-envelope"></i>
                 </a>
               </li>
             </ul>

@@ -4,7 +4,7 @@
 
 .languages__data {
     padding: 1.875rem;
-    background-color: var(--container-color);
+    background-color: rgba(250, 235, 215, 0.815);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
 }

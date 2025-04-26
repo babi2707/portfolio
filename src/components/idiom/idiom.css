@@ -1,0 +1,55 @@
+.idiom__container {
+    margin-top: 1.25rem;
+    background-color: var(--container-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.idiom {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.idiom th,
+.idiom td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+    font-size: var(--normal-font-size);
+    border-radius: 0.2rem;
+}
+
+.idiom tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.idiom th {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+    color: var(--title-color);
+}
+
+.idiom td {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+}
+
+.idiom tbody tr:hover {
+    background-color: rgba(221, 176, 252, 0.575);
+}
+
+@media screen and (max-width: 748px) {
+    .idiom th,
+    .idiom td {
+        font-size: var(--small-font-size);
+        padding: 0.5rem 0.25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .idiom th,
+    .idiom td {
+        font-size: var(--smaller-font-size);
+        padding: 0.25rem 0.05rem;
+    }
+}
