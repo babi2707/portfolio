@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
@@ -9,10 +9,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
     <>
-      <Sidebar />
-      <main className="main">
+      <Sidebar toggle={toggle} setToggle={setToggle} />
+      <main className={`main ${toggle ? "menu-open" : "menu-closed"}`}>
         <Home />
         <About />
         <Services />

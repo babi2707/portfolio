@@ -3,9 +3,7 @@ import "./sidebar.css";
 import "../../index.css";
 import Logo from "../../assets/logo.png";
 
-const Sidebar = () => {
-  const [toggle, showMenu] = useState(false);
-
+const Sidebar = ({ toggle, setToggle }) => {
   return (
     <>
       <aside className={toggle ? "aside show-menu" : "aside"}>
@@ -60,7 +58,7 @@ const Sidebar = () => {
         </div>
       </aside>
 
-      <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+      <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => setToggle(!toggle)}>
         <i className="icon-menu"></i>
       </div>
     </>
