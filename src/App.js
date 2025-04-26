@@ -7,6 +7,7 @@ import Services from "./components/services/Services";
 import Resume from "./components/resume/Resume";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Languages from "./components/languages/Languages";
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -18,6 +19,7 @@ const App = () => {
         <Home />
         <About />
         <Services />
+        <Languages />
         <Resume />
         <Portfolio />
         <Contact />

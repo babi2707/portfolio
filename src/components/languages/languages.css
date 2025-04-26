@@ -1,0 +1,135 @@
+.languages__container {
+    margin-top: 2rem;
+}
+
+.languages__data {
+    padding: 1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+.languages__skills {
+    row-gap: 1.25rem;
+}
+
+.skills__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills__bar {
+    width: 40%;
+    height: 6px;
+    background-color: #b6b2b279;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.skills__percentage {
+    display: block;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__data:nth-child(8),
+.skills__data:nth-child(13) {
+    padding-bottom: 1rem;
+    margin-bottom: 0.05rem;
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+}
+
+.html {
+    width: 85%;
+    background-color: rgb(205, 129, 255);
+}
+
+.css {
+    width: 88%;
+    background-color: rgb(205, 129, 255);
+}
+
+.react {
+    width: 70%;
+    background-color: rgb(205, 129, 255);
+}
+
+.angular {
+    width: 70%;
+    background-color: rgb(205, 129, 255);
+}
+
+.wpf {
+    width: 67%;
+    background-color: rgb(205, 129, 255);
+}
+
+.flutter {
+    width: 60%;
+    background-color: rgb(205, 129, 255);
+}
+
+.kotlin {
+    width: 60%;
+    background-color: rgb(205, 129, 255);
+}
+
+.c {
+    width: 75%;
+    background-color: rgb(255, 129, 135);
+}
+
+.java {
+    width: 85%;
+    background-color: rgb(255, 129, 135);
+}
+
+.js {
+    width: 70%;
+    background-color: rgb(255, 129, 135);
+}
+
+.ts {
+    width: 65%;
+    background-color: rgb(255, 129, 135);
+}
+
+.dot {
+    width: 55%;
+    background-color: rgb(255, 129, 135);
+}
+
+.sql {
+    width: 60%;
+    background-color: rgb(250, 183, 121);
+}
+
+.psql {
+    width: 60%;
+    background-color: rgb(250, 183, 121);
+}
+
+@media screen and (max-width: 768px) {
+    .languages__data {
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+}
