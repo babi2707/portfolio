@@ -35,36 +35,50 @@
     text-align: justify;
 }
 
+.about__cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.about__cv .btn {
+    flex: 1;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
+
 .about__skills {
     row-gap: 1.25rem;
 }
 
-.skills__titles {
+.about_skills__titles {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.skills__name {
+.about_skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
-.skills__number {
+.about_skills__number {
     line-height: 1.2;
 }
 
-.skills__bar,
-.skills__percentage {
+.about_skills__bar,
+.about_skills__percentage {
     height: 7px;
     border-radius: 0.25rem;
 }
 
-.skills__bar {
+.about_skills__bar {
     background-color: #b6b2b279;
 }
 
-.skills__percentage {
+.about_skills__percentage {
     display: block;
 }
 

@@ -5,6 +5,7 @@ import Work4 from "../../assets/work-4.png";
 import Work5 from "../../assets/work-5.png";
 import Work6 from "../../assets/work-6.png";
 import Work7 from "../../assets/work-7.png";
+import Work8 from "../../assets/work-8.png";
 
 const Menu = [
     {
@@ -51,6 +52,13 @@ const Menu = [
     },
     {
         id: 7,
+        image: Work8,
+        title: "Github API Website Project using HTML, CSS and JavaScript",
+        url: "https://babi2707.github.io/trabalho02/",
+        category: "HTML",
+    },
+    {
+        id: 8,
         image: Work4,
         title: "Pap Smear (Papanicolau) Recognition Project using Python and Artificial Intelligence",
         url: "https://github.com/babi2707/Trabalho-PAI---Reconhecimento-Papanicolau",

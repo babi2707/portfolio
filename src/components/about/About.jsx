@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.png";
+import CvBR from "../../assets/cv-br.pdf";
+import CvEUPT from "../../assets/Europass-CV-PT.pdf";
+import CvEUEN from "../../assets/Europass-CV-EN.pdf";
 
 const About = () => {
   return (
@@ -17,54 +20,70 @@ const About = () => {
               fullstack developer from Belo Horizonte, Brazil. I have an
               interesting experience in Front and Back end development.
             </p>
-            <a href="" className="btn">
-              Download CV
-            </a>
+            <div className="about__cv">
+              <a
+                href={CvEUEN}
+                download="Barbara-Luciano-CV-UE-EN.pdf"
+                className="btn"
+              >
+                CV - UE (EN)
+              </a>
+              <a
+                href={CvEUPT}
+                download="Barbara-Luciano-CV-UE-PT.pdf"
+                className="btn"
+              >
+                CV - UE (PT)
+              </a>
+              <a href={CvBR} download="Barbara-Luciano-CV-BR.pdf" className="btn">
+                CV - BR
+              </a>
+            </div>
           </div>
 
           <div className="about__skills grid">
-            <div className="skills__data">
-                <div className="skills__titles">
-                    <h3 className="skills__name">Frontend Development</h3>
-                    <span className="skills__number">80%</span>
-                </div>
+            <div className="about_skills__data">
+              <div className="about_skills__titles">
+                <h3 className="about_skills__name">Frontend Development</h3>
+                <span className="about_skills__number">80%</span>
+              </div>
 
-                <div className="skills__bar">
-                    <span className="skills__percentage frontend"></span>
-                </div>
+              <div className="about_skills__bar">
+                <span className="about_skills__percentage frontend"></span>
+              </div>
             </div>
 
-            <div className="skills__data">
-                <div className="skills__titles">
-                    <h3 className="skills__name">Backend Development</h3>
-                    <span className="skills__number">70%</span>
-                </div>
+            <div className="about_skills__data">
+              <div className="about_skills__titles">
+                <h3 className="about_skills__name">Backend Development</h3>
+                <span className="about_skills__number">70%</span>
+              </div>
 
-                <div className="skills__bar">
-                    <span className="skills__percentage backend"></span>
-                </div>
+              <div className="about_skills__bar">
+                <span className="about_skills__percentage backend"></span>
+              </div>
             </div>
 
-            <div className="skills__data">
-                <div className="skills__titles">
-                    <h3 className="skills__name">Database Development</h3>
-                    <span className="skills__number">50%</span>
-                </div>
+            <div className="about_skills__data">
+              <div className="about_skills__titles">
+                <h3 className="about_skills__name">Database Development</h3>
+                <span className="about_skills__number">50%</span>
+              </div>
 
-                <div className="skills__bar">
-                    <span className="skills__percentage database"></span>
-                </div>
+              <div className="about_skills__bar">
+                <span className="about_skills__percentage database"></span>
+              </div>
             </div>
 
-            <div className="skills__data">
-                <div className="skills__titles">
-                    <h3 className="skills__name">Unit tests</h3>
-                    <span className="skills__number">60%</span>
-                </div>
+            <div className="about_skills__data">
+              <div className="about_skills__titles">
+                <h3 className="about_skills__name">Unit tests</h3>
+                <span className="about_skills__number">60%</span>
+              </div>
 
-                <div className="skills__bar">
-                    <span className="skills__percentage unit"></span>
-                </div>
+              <div className="about_skills__bar">
+                <span className="about_skills__percentage unit"></span>
+              </div>
             </div>
           </div>
         </div>

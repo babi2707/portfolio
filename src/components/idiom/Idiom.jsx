@@ -1,5 +1,6 @@
 import React from "react";
 import "./idiom.css";
+import Certificate from "../../assets/english_certificate.pdf";
 
 const Idiom = () => {
   return (
@@ -18,7 +19,7 @@ const Idiom = () => {
               </tr>
             </thead>
             <tbody>
-            <tr>
+              <tr>
                 <td>Portuguese</td>
                 <td>Native</td>
                 <td>Native</td>
@@ -40,6 +41,10 @@ const Idiom = () => {
           </table>
         </div>
       </div>
+
+      <a href={Certificate} download="Barbara-Luciano-English-Certificate.pdf" className="btn certificate">
+        English Certificate
+      </a>
     </section>
   );
 };

@@ -11,28 +11,28 @@ const data = [
     image: Image1,
     title: "Frontend Development",
     description:
-      "Building modern, responsive interfaces with a focus on user experience. I work with technologies like HTML, CSS, SCSS, JavaScript, TypeScript, React, Angular, Flutter, Kotlin, and WPF.",
+      "Designing and developing modern, responsive, and intuitive user interfaces with a strong emphasis on delivering seamless and engaging user experiences. I focus on creating accessible, high-performance, and scalable solutions that adapt seamlessly across various devices and platforms.",
   },
   {
     id: 2,
     image: Image2,
     title: "Backend Development",
     description:
-      "Developing robust and scalable systems, handling business logic and integrations. I use languages such as Java, C#, .NET, C, C++, and JavaScript.",
+      "Building robust, efficient, and scalable systems, with a strong focus on designing reliable architectures, implementing complex business logic, and ensuring seamless integration between services and platforms.",
   },
   {
     id: 3,
     image: Image3,
     title: "Database Development",
     description:
-      "Designing, creating, and optimizing databases to ensure data efficiency and integrity. Experienced with SQL and integrating databases with various backend technologies.",
+      "Designing, structuring, and optimizing databases to ensure high standards of efficiency, integrity, and scalability, while enabling seamless integration with backend systems and supporting business operations with reliable data solutions.",
   },
   {
     id: 4,
     image: Image4,
     title: "Unit Tests",
     description:
-      "Creating automated tests to ensure code quality and functionality. I’ve written unit tests in C#, Java, and TypeScript (in an Angular frontend project).",
+      "Developing and implementing automated tests to validate code quality, functionality, and reliability, ensuring that applications maintain high performance and stability throughout their lifecycle.",
   },
 ];
 

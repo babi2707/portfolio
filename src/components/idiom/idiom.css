@@ -38,6 +38,10 @@
     background-color: rgba(221, 176, 252, 0.575);
 }
 
+.certificate {
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 748px) {
     .idiom th,
     .idiom td {
@@ -46,9 +50,18 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .idiom th,
+    .idiom td {
+        font-size: 0.65rem;
+        padding: 0.25rem 0.05rem;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .idiom th,
     .idiom td {
+        font-size: 0.5rem;
         padding: 0.25rem 0.05rem;
     }
 }
