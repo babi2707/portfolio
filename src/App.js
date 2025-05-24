@@ -9,6 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Languages from "./components/languages/Languages";
 import Idiom from "./components/idiom/Idiom";
+import Interview from "./components/interview/Interview";
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,6 +25,7 @@ const App = () => {
         <Resume />
         <Idiom />
         <Portfolio />
+        <Interview />
         <Contact />
       </main>
     </>

@@ -57,6 +57,12 @@ const Sidebar = ({ toggle, setToggle }) => {
               </li>
 
               <li className="nav__item">
+                <a href="#interview" className="nav__link">
+                  <i className="icon-camrecorder"></i>
+                </a>
+              </li>
+
+              <li className="nav__item">
                 <a href="#contact" className="nav__link">
                   <i className="icon-envelope"></i>
                 </a>

@@ -49,6 +49,12 @@
     resize: none;
 }
 
+.btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
 @media screen and (max-width: 1024px) {
     .contact__container {
         grid-template-columns: 300px 360px;

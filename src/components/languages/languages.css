@@ -54,12 +54,12 @@
 }
 
 .html {
-    width: 85%;
+    width: 80%;
     background-color: rgb(205, 129, 255);
 }
 
 .css {
-    width: 88%;
+    width: 80%;
     background-color: rgb(205, 129, 255);
 }
 
@@ -74,7 +74,7 @@
 }
 
 .wpf {
-    width: 67%;
+    width: 70%;
     background-color: rgb(205, 129, 255);
 }
 
@@ -89,12 +89,12 @@
 }
 
 .c {
-    width: 75%;
+    width: 70%;
     background-color: rgb(255, 129, 135);
 }
 
 .java {
-    width: 85%;
+    width: 80%;
     background-color: rgb(255, 129, 135);
 }
 
@@ -104,12 +104,12 @@
 }
 
 .ts {
-    width: 65%;
+    width: 60%;
     background-color: rgb(255, 129, 135);
 }
 
 .dot {
-    width: 55%;
+    width: 60%;
     background-color: rgb(255, 129, 135);
 }
 
