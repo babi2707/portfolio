@@ -20,7 +20,7 @@ const HeaderSocials = () => {
       </a>
 
       <a
-        href="www.linkedin.com/in/barbara-luciano-araujo"
+        href="https://www.linkedin.com/in/barbara-luciano-araujo/"
         className="home__social-link"
         target="_blank"
       >

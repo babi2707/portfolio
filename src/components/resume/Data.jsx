@@ -27,9 +27,10 @@ const Data = [
     id: 4,
     category: "education",
     icon: "icon-graduation",
-    year: "2025 - present",
-    title: "Informatic Engineering Graduation",
+    year: "2025",
+    title: "Informatic Engineering Exchange Program",
     desc: "Instituto Politecnico da Guarda, Guarda, Portugal",
+    isSubcategory: true
   },
   {
     id: 5,
@@ -37,7 +38,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "2022 - 2023",
     title: "Monitoring",
-    desc: "Helping students in subjects such as Algorithms and Data Structures and Intelligent Systems",
+    desc: "Helping students in subjects such as Algorithms and Data Structures, Web Development and Intelligent Systems",
   },
   {
     id: 6,
@@ -45,7 +46,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "2023 - 2024",
     title: "Andritz Internship",
-    desc: "Development of new features and bug solutions",
+    desc: "Development of new features and bug solutions for the company's factory system in C#, .NET, WPF e React",
   },
   {
     id: 7,
@@ -53,7 +54,16 @@ const Data = [
     icon: "icon-briefcase",
     year: "2024 - 2025",
     title: "DTI Internship",
-    desc: "Development of new features and bug solutions",
+    desc: "Development of new features and bug solutions for IGAM and Vale to control the water quality in AngularJS, Java, PostgreSQL",
+  },
+  {
+    id: 8,
+    category: "experience",
+    icon: "icon-briefcase",
+    year: "2025 - present",
+    title: "ULSG Summer Internship",
+    desc: "Development of new features and bug solutions for the hospital's intranet system in AngularJS, Java, PostgreSQL",
+    isLast: true
   },
 ];
 

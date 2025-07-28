@@ -19,6 +19,8 @@ const Resume = () => {
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
+                  isSubcategory={val.isSubcategory || false}
+                  isLast={val.isLast || false}
                 />
               );
             }
@@ -35,6 +37,8 @@ const Resume = () => {
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
+                  isSubcategory={val.isSubcategory || false}
+                  isLast={val.isLast || false}
                 />
               );
             }

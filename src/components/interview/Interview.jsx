@@ -13,7 +13,7 @@ const Interview = () => {
             Schedule a 60-minute call with me through Calendly.
           </p>
           <a
-            href="https://calendly.com/barbara-araujo-1299141-sga/30min"
+            href="https://calendly.com/barbara-araujo-1299141-sga/60min"
             className="btn"
             target="_blank"
             rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Interview = () => {
 
         <div className="interview__calendar">
           <iframe
-            src="https://calendly.com/barbara-araujo-1299141-sga/30min?hide_event_type_details=1&hide_gdpr_banner=1"
+            src="https://calendly.com/barbara-araujo-1299141-sga/60min?hide_event_type_details=1&hide_gdpr_banner=1"
             width="100%"
             height="600"
             frameBorder="0"

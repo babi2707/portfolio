@@ -3,6 +3,10 @@
     column-gap: 1.875rem;
 }
 
+.section__title {
+    margin-bottom: 1.75rem;
+}
+
 .timeline {
     background-color: var(--container-color);
     padding: 1.875rem;
@@ -50,6 +54,34 @@
 .timeline__title {
     font-size: var(--h3-font-size);
     margin: 0.5rem 0;
+}
+
+.timeline__item.subcategory {
+    margin-left: 1.500rem;
+    padding-left: 1.5rem;
+}
+
+.timeline__item.last::before {
+    height: 0%;
+}
+
+.timeline__item::before {
+    content: '';
+    width: 1px;
+    height: 160%;
+    background-color: var(--first-color);
+    position: absolute;
+    left: .005rem;
+    top: 1rem;
+}
+
+.timeline__item:not(.subcategory) + .timeline__item.subcategory::before {
+    content: '';
+    width: 1px;
+    height: calc(100% - 3.25rem);
+    background-color: var(--first-color);
+    position: absolute;
+    top: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
