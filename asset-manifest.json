@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fd30b7c9.css",
-    "main.js": "/portfolio/static/js/main.b1a2bcdd.js",
+    "main.js": "/portfolio/static/js/main.2d015e2e.js",
     "static/media/avatar-1.png": "/portfolio/static/media/avatar-1.e20d7ec710e78715d616.png",
     "static/media/logo.png": "/portfolio/static/media/logo.d56063378e46900eb0a7.png",
     "static/media/avatar-2.png": "/portfolio/static/media/avatar-2.c9158179e054d8c482d0.png",
-    "static/media/cv-br.pdf": "/portfolio/static/media/cv-br.c024d8ae410a1e0c065e.pdf",
-    "static/media/Europass-CV-EN.pdf": "/portfolio/static/media/Europass-CV-EN.bd6e2fa13b95564768c3.pdf",
-    "static/media/Europass-CV-PT.pdf": "/portfolio/static/media/Europass-CV-PT.24be93c3ff36790de736.pdf",
     "static/media/work-1.png": "/portfolio/static/media/work-1.9b243efa0ca92b52a449.png",
     "static/media/english_certificate.pdf": "/portfolio/static/media/english_certificate.810c79a91609b9a3fd5b.pdf",
     "static/media/work-3.png": "/portfolio/static/media/work-3.228001ffe6eff635479a.png",
+    "static/media/Barbara_Professional_CV_PT_2026.pdf": "/portfolio/static/media/Barbara_Professional_CV_PT_2026.9eed5e65e0938b4950f7.pdf",
+    "static/media/Barbara_Professional_CV_PT_BR_2026.pdf": "/portfolio/static/media/Barbara_Professional_CV_PT_BR_2026.6434a2df60f1cfa4162b.pdf",
+    "static/media/Barbara_Professional_CV_EN_2026.pdf": "/portfolio/static/media/Barbara_Professional_CV_EN_2026.a80cd5102ef09303fe51.pdf",
     "static/media/work-4.png": "/portfolio/static/media/work-4.d0ac4f4bd49aab7fabad.png",
     "static/media/work-8.png": "/portfolio/static/media/work-8.da4d743afe6c48c2e8db.png",
     "static/media/services-3.png": "/portfolio/static/media/services-3.ea4aaee733da7b939ce1.png",
@@ -22,10 +22,10 @@
     "static/media/dots-bg.svg": "/portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/portfolio/index.html",
     "main.fd30b7c9.css.map": "/portfolio/static/css/main.fd30b7c9.css.map",
-    "main.b1a2bcdd.js.map": "/portfolio/static/js/main.b1a2bcdd.js.map"
+    "main.2d015e2e.js.map": "/portfolio/static/js/main.2d015e2e.js.map"
   },
   "entrypoints": [
     "static/css/main.fd30b7c9.css",
-    "static/js/main.b1a2bcdd.js"
+    "static/js/main.2d015e2e.js"
   ]
 }
