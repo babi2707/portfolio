@@ -19,7 +19,7 @@ const Data = [
     id: 3,
     category: "education",
     icon: "icon-graduation",
-    year: "2021 - present",
+    year: "2021 - 2025",
     title: "Computer Science Graduation",
     desc: "PUC Minas, Belo Horizonte, MG, Brazil",
   },
@@ -60,7 +60,7 @@ const Data = [
     id: 8,
     category: "experience",
     icon: "icon-briefcase",
-    year: "2025 - present",
+    year: "2025",
     title: "ULSG Summer Internship",
     desc: "Development of new features and bug solutions for the hospital's intranet system in AngularJS, Java, PostgreSQL",
     isLast: true

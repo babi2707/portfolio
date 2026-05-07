@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.png";
-import CvBR from "../../assets/cv-br.pdf";
-import CvEUPT from "../../assets/Europass-CV-PT.pdf";
-import CvEUEN from "../../assets/Europass-CV-EN.pdf";
+import CvBR from "../../assets/Barbara_Professional_CV_PT_BR_2026.pdf";
+import CvEUPT from "../../assets/Barbara_Professional_CV_PT_2026.pdf";
+import CvEUEN from "../../assets/Barbara_Professional_CV_EN_2026.pdf";
 
 const About = () => {
   return (
@@ -23,19 +23,19 @@ const About = () => {
             <div className="about__cv">
               <a
                 href={CvEUEN}
-                download="Barbara-Luciano-CV-UE-EN.pdf"
+                download="Barbara_Professional_CV_EN_2026.pdf"
                 className="btn"
               >
-                CV - UE (EN)
+                CV - EN
               </a>
               <a
                 href={CvEUPT}
-                download="Barbara-Luciano-CV-UE-PT.pdf"
+                download="Barbara_Professional_CV_PT_2026.pdf"
                 className="btn"
               >
-                CV - UE (PT)
+                CV - PT
               </a>
-              <a href={CvBR} download="Barbara-Luciano-CV-BR.pdf" className="btn">
+              <a href={CvBR} download="Barbara_Professional_CV_PT_BR_2026.pdf" className="btn">
                 CV - BR
               </a>
             </div>
