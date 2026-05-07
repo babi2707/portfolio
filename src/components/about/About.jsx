@@ -16,9 +16,9 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              My name is Bárbara Luciano Araújo, I am 23 years old and I am a
-              fullstack developer from Belo Horizonte, Brazil. I have an
-              interesting experience in Front and Back end development.
+              My name is Bárbara Luciano Araújo, I am 24 years old and I am a
+              fullstack developer from Brazil living in Portugal. I have an
+              interesting experience in Front and Back End development.
             </p>
             <div className="about__cv">
               <a
